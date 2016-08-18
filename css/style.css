@@ -1,0 +1,110 @@
+
+div.content a,a:hover,a:link,a:visited,a:active{  color: #000000;  text-decoration: none;  }
+body {  height: 100%; width: 100%; margin: 0; padding: 0;  background: #f1f1f5; }
+.headLogo{width: 100%;}
+.allSideBox {  position: fixed;  width: 0px;  overflow: visible;  }
+.containBox{position: relative;    overflow: visible;}
+.box {  display: inline-block;  float: right;  clear: both;  }
+.containerBox{
+  position: relative;
+  display: inline-block;
+  clear: both;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.sideCard {
+  position: relative;
+  left: 32px;
+  padding: 16px 32px 16px 64px;
+  margin: 8px;  
+  x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transition: all 0.3s ease-in-out 0.1s;       /* 過渡*/
+}
+
+.sideCard:hover {
+  position: relative;
+  left: 100%;
+  margin-left: -32px;
+  box-shadow: 
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.containCard {
+  position: relative;
+  padding: 16px 32px 16px 32px;
+  margin: 8px;
+  width:400px;
+  height: 55px;
+  left: 40px;
+  /*margin-left: -32px;*/
+  box-shadow:
+          0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+          0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.containCard:hover{
+  position: relative;
+  padding: 16px 32px 16px 32px;
+  margin: 8px;
+  width:420px;
+  height: 60px;
+  left: 40px;
+
+  /*margin-left: -32px;*/
+  box-shadow:
+          0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+          0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+
+}
+/*侧边导航的字体样式*/
+.sideCard-content {
+  color: #000;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.bg-01 { background: #539770; }
+.bg-02 { background: #4B7D74; }
+.bg-03 { background: #8DC2BC; }
+.bg-04 { background: #EDD6B4; }
+.bg-05 { background: #BE7467; }
+.bg-06 { background: #E2AE63; }
+.FontColor-01 { color: #539770; }
+.FontColor-02 { color: #4B7D74; }
+.FontColor-03 { color: #8DC2BC; }
+.FontColor-04 { color: #EDD6B4; }
+.FontColor-05 { color: #BE7467; }
+.FontColor-06 { color: #E2AE63; }
+
+
+/*.card{*/
+  /*width: auto;;*/
+  /*height:300px;*/
+  /*margin: 5px;*/
+/*}*/
+.header{
+  position: relative;
+  width: 100%;
+  background-color:#fff;
+  box-shadow:
+          0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+          0 8px 8px -8px rgba(0, 0, 0, 0.5);
+}
+#aboutMeTextArea{
+  border:0px;
+  width: 100%;
+  height: 200px;
+  outline: none;
+}
+#aboutMeTextAreaTran{
+  border:0px;
+  width: 100%;
+  height: 200px;
+  outline: none;
+}

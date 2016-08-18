@@ -1,0 +1,119 @@
+ul.cards {
+    width: 880px;
+    margin: 0 auto 20px;
+    height: 300px;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 0;
+    cursor: pointer;
+}
+ul.cards li.title {
+    margin: 0 0 20px;
+}
+ul.cards li.title h2 {
+    font-weight: 700;
+}
+ul.cards li.card {
+    background: #FFF;
+    overflow: hidden;
+    top:100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    box-shadow: 1px 2px 2px 0 #aaa;
+    -webkit-transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+    transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+}
+
+ul.cards li.card img {
+    max-width: 100%;
+    padding: 5px;
+    height: auto;
+}
+ul.cards li.card div.content {
+    padding: 5px 10px;
+}
+ul.cards li.card.card-1 {
+    z-index: 10;
+    -webkit-transform: rotateZ(-6deg);
+    transform: rotateZ(-6deg);
+}
+ul.cards li.card.card-2 {
+    z-index: 10;
+    -webkit-transform: rotateZ(-6deg);
+    transform: rotateZ(-6deg);
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+ul.cards li.card.card-3 {
+    z-index: 8;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+ul.cards li.card.card-4 {
+    z-index: 8;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+ul.cards li.card.card-5 {
+    z-index: 6;
+    -webkit-transform: rotateZ(6deg);
+    transform: rotateZ(6deg);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+ul.cards li.card.card-6 {
+    z-index: 6;
+    -webkit-transform: rotateZ(6deg);
+    transform: rotateZ(6deg);
+    -webkit-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+}
+ul.cards li.card.card-7 {
+    z-index: 4;
+    -webkit-transform: rotateZ(12deg);
+    transform: rotateZ(12deg);
+    -webkit-transition-delay: 0.30s;
+    transition-delay: 0.30s;
+}
+ul.cards li.card.card-8 {
+    z-index: 4;
+    -webkit-transform: rotateZ(12deg);
+    transform: rotateZ(12deg);
+    -webkit-transition-delay: 0.35s;
+    transition-delay: 0.35s;
+}
+ul.cards.transition li.card {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+ul.cards.transition li.card.card-2 {
+    left: 220px;
+}
+ul.cards.transition li.card.card-3 {
+    left: 440px;
+}
+ul.cards.transition li.card.card-4 {
+    left: 660px;
+}
+ul.cards.transition li.card.card-5 {
+    top: 320px;
+}
+ul.cards.transition li.card.card-6 {
+    top: 320px;
+    left: 220px;
+}
+ul.cards.transition li.card.card-7 {
+    top: 320px;
+    left: 440px;
+}
+ul.cards.transition li.card.card-8 {
+    top: 320px;
+    left: 660px;
+}
